@@ -1,4 +1,16 @@
 aid: supplant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supplant.png
 name: Supplant
 description: Supplant is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    No API surface. supplant.com does not resolve; supplantcompany.com and
+    thesupplantcompany.com are parked domains (HTTP 200, 114-byte lander
+    redirect to /lander). No developer portal, docs, SDKs, or specs found.
+    WebSearch budget exhausted this session; findings are from DNS + HTTP
+    probes only.
 tags:
 - Company
 apis: []
